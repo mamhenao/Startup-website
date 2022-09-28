@@ -50,6 +50,16 @@ main {
     margin: 0 auto;
 }
 
+.navigation-container ul{
+    list-style: none;
+    display: none;
+}
+
+.navigation-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 .titulo-container {
     width: 335px;
     height: 170px;
