@@ -172,3 +172,45 @@ main {
     line-height: 2.3rem;
     padding: 25px 10px;
 }
+
+.beneficios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 80px;
+    padding: 40px 0;
+}
+
+.beneficios-container .beneficios--tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 335px;
+    height: 513px;
+}
+
+.beneficios-container .beneficios--tarjeta img {
+    width: 335px;
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+.beneficios-container .beneficios--tarjeta h2 {
+    font-family: 'Crimson Text', serif;   
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3rem;
+    padding-bottom: 20px;
+}
+
+.beneficios-container .beneficios--tarjeta p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 20px;
+}
+
