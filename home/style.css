@@ -102,3 +102,73 @@ header {
     font-weight: 400;
     line-height: 2.3rem;
 }
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 20px auto;
+    gap: 60px;
+}
+
+.partners-container .partners--text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.partners-container .partners--text-container .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.9rem;
+    letter-spacing: 5px;
+    color: var(--green);
+}
+
+.partners-container .partners--text-container h2 {
+    font-family: 'Crimson Text', serif;   
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.partners-container .partners--text-container .texto {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.partners-container .partners--image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.partners--button {
+    display: flex;
+    width: 170px;
+    height: 48px;
+    background-color: var(--black);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    padding: 25px 10px;
+}
