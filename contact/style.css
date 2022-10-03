@@ -1,0 +1,186 @@
+/*  
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografía
+4. Visual
+5. Otros
+*/
+
+:root {
+    --green: #74c69d;
+    --black: #212529;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #74c69d;
+    margin-bottom: 15px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.navigation-container ul{
+    list-style: none;
+    display: none;
+}
+
+.navigation-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 335px;
+    height: auto;
+    margin: 0 auto;
+    gap: 45px;
+}
+
+.contact-container .contact--title-container {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    padding-top: 10px;
+}
+
+.contact-container .contact--title-container h1 {
+    font-family: 'Crimson Text';
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.contact-container .contact--title-container p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+.contact-container .form-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 335px;
+    margin: 0 auto;
+    height: auto;
+    gap: 21px;
+
+}
+
+.contact-container .form-container .form--map-container iframe {
+    width: 335px;
+    height: 224px;
+}
+
+.form-content ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+    gap: 21px;
+    margin-top: 4px;
+}
+
+.form-container ul li {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+
+.form-container ul li input {
+    width: 335px;
+    height: 38px;
+    background: #eeeeee;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.form-container ul li textarea {
+    font-family: 'Work Sans', sans-serif;
+    width: 335px;
+    height: 141px;
+    background: #eeeeee;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    opacity: 0.88;
+    padding: 4px;
+
+}
+
+.form-container ul li button {
+    width: 335px;
+    height: 48px;
+    background: var(--black);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 59px;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: 150px;
+    background-color: #74C69D;
+}
+
+footer img {
+    width: 280px;
+}
+
+footer p {
+    width: 326px;
+    height: 25px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: white;
+}

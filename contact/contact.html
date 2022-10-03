@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./desktop.css" media="(min-width: 750px)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Work+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/icon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img class="logo" src="../assets/icons/logo.svg" alt="logo" />
+        <div class="navigation-container">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+            <li><a href="../services/services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <img
+          class="barra-menu"
+          src="../assets/icons/barras-menu.svg"
+          alt="Barra de Menu"
+        />
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-container">
+        <div class="contact--title-container">
+          <h1>Contact Us</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur <br />
+            <br />
+            adipisicimg elit.
+          </p>
+        </div>
+        <div class="form-container">
+          <div class="form--map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15864.562302827127!2d-75.57064037134965!3d6.245198527670535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442859d833cfa3%3A0xa3fca5c91547777f!2sCESDE!5e0!3m2!1ses!2sco!4v1664816816189!5m2!1ses!2sco"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="form-content">
+            <form class="form">
+              <ul>
+                <li>
+                  <label for="name">Name</label><br>
+                  <input type="text" id="name" name="user-name" placeholder="Ingresa tu nombre" />
+                </li>
+                <li>
+                  <label for="mail">Email</label><br>
+                  <input type="email" id="mail" name="user-email" placeholder="Ingresa tu correo"/>
+                </li>
+                <li>
+                  <label for="msg">Message</label><br>
+                  <textarea name="user_message" id="msg" placeholder="Deja un mensaje, sugerencia o petición"></textarea>
+                </li>
+                <li class="button">
+                  <button type="submit">Submit</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <img src="../assets/images/redes-img.svg" alt="Redes" />
+  
+        <p>&copy; Start, 2022. All rights reserved.</p>
+      </footer>
+  </body>
+</html>

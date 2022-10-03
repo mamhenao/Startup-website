@@ -1,0 +1,70 @@
+.header-container {
+    max-width: 1000px;
+}
+
+.barra-menu {
+    display: none;
+}
+
+.navigation-container ul{
+    display: flex;
+}
+
+.navigation-container ul li {
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.navigation-container ul li a:hover {
+    color: #449d70;
+    border-bottom: 2px solid #449d70;
+}
+
+.contact-container {
+    width: 100%;
+}
+
+.contact-container .form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.contact-container .form-container .form--map-container {
+    order: 1;
+}
+
+.contact-container .form-container .form--map-container iframe {
+    width: 414px;
+    min-width: 100px;
+    height: 384px;
+    padding-bottom: 70px;
+}
+
+.form-content ul {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+    margin-top: 4px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    height: 80px;
+    background-color: #74C69D;
+    padding: 0 50px;
+}
