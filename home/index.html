@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 750px)" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Work+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="../assets/icons/icon.svg" type="image/x-icon">
   </head>
   <body>
     <header>
       <div class="header-container">
         <div class="header--logo">
           <img src="../assets/icons/logo.svg" alt="Logo de start" />
-          <img src="../assets/icons/barras-menu.svg" alt="Barra menú" />
-        </div>
+          <img class="barra-menu" src="../assets/icons/barras-menu.svg" alt="Barra menú" />
+          <div class="navigation-container">
+            <ul>
+              <li><a href="../home/index.html">Home</a></li>
+              <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div> 
         <div class="header--main-content">
           <div class="header--image-container">
             <img src="../assets/images/bombilla.svg" alt="Imagen de grupo" />
@@ -75,8 +85,8 @@
             <a href="#" class="partners--button">Learn More</a>
           </div>
         </div>
-        <div class="beneficios--tarjeta">
-          <div class="beneficios-tarjeta--img">
+        <div id="man" class="beneficios--tarjeta">
+          <div class="beneficios-tarjeta--img" >
             <img src="../assets/images/man-sofa.svg" alt="Man in sofa" />
           </div>
           <div class="beneficios-tarjeta--text">
@@ -95,7 +105,7 @@
           <p class="subtitle">TEAM</p>
           <h2>Our Talents</h2>
           <p class="texto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit.
           </p>
         </div>
         <div class="team-cards">

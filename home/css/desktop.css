@@ -1,0 +1,157 @@
+.barra-menu {
+    display: none;
+}
+
+.navigation-container {
+    display: block;
+}
+
+.navigation-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-container ul li {
+    list-style: none;
+    padding-left: 30px;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.navigation-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-container ul li a:hover {
+    color: #449d70;
+    border-bottom: 2px solid #449d70;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.header-container .header--logo {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1050px;
+    padding-bottom: 80px;
+}
+
+.header-container .header--main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    gap: 60px;
+}
+
+.header--image-container {
+    order: 1;
+}
+
+.header--image-container img {
+    width: 650px;
+    height: 380px;
+    margin: 0;
+}
+
+.header-text-container {
+    width: 416px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.partners-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    gap: 120px;
+    margin-bottom: 70px;
+}
+
+.partners-container .partners--image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.partners-container a {
+    display: none;
+}
+
+.beneficios-container {
+    max-width: 1180px;
+    height: 750px
+}
+
+.beneficios-container .beneficios--tarjeta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    gap: 120px;
+}
+
+#man {
+    flex-direction: row-reverse;
+}
+
+.beneficios--tarjeta .beneficios-tarjeta--text {
+    width: 470px;
+    height: 260px;
+}
+
+.team-container {
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.team-container .team-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: var(--white);
+    margin-bottom: 50px;
+}
+
+.team-container .team-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.3);
+}
