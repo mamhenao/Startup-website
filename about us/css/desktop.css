@@ -1,0 +1,56 @@
+.header-container {
+    max-width: 1000px;
+}
+
+.barra-menu {
+    display: none;
+}
+
+.navigation-container ul{
+    display: flex;
+}
+
+.navigation-container ul li {
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.navigation-container ul li a:hover {
+    color: #449d70;
+    border-bottom: 2px solid #449d70;
+}
+
+section .themes-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-bottom: 60px; */
+}
+
+section .themes-container .mission-container, section .themes-container .vision-container {
+    width: 430px;
+}
+
+.mission-container  .mission--text-container, .vision-container  .vision--text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 111px;
+    background-color: #74C69D;
+}
+
